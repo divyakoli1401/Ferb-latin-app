@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+:root{
+    --primary-color:#8B5CF6;
+}
+
+body{
+    margin:0px;
+    font-family: Source Sans Pro;
+}
+
+.container {            
+    padding: 0rem 1rem;
+}                                                                                                                    
+
+
+.container-center {                                                                                              
+ display: flex;
+ justify-content: center;
+}
+
+textarea{
+    margin: 1rem;
+    padding: 1rem;
+    height: 10vh;
+    width: 80% ;
+}
+.output{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    height: 10vh;
+    width: 80% ;
+}
+
+.hero {
+padding: 0.5rem;
+padding-top: 0.5rem;
+background-color: var(--primary-color);
+
+}
+
+.hero .hero-img {
+max-width: 350px;
+display: block;
+margin: auto;
+}
+
+.hero .hero-heading {
+padding-top: 0.5rem;
+color: #374151;
+text-align: center;
+}
+
+button{
+    background-color:var(--primary-color);
+    color:white;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: block;
+}
+.translation{
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+footer{
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #374151;
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
